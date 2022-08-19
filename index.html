@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Turbo</title>
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+        <img class="logo" src="img/Vector.png"  alt="Logo de Alura con la incial de la letra A">
+        <h1 class="titulo">Encriptador Turbo</h1>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <textarea class="input-texto" cols="40" rows="6"
+            placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <button class="encriptar, boton1" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+                <button class="desencriptar, boton2" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensaje" cols="18" rows="8"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+
+    <div class="muñeco">
+        <h2 class="instrucciones"><strong>Instrucciones</strong><br>Ingrese el texto a encriptar o desencriptar!</h2>
+        <h2 class="instrucciones"> Presione el botón</h2>
+        <h2 class="instrucciones"> y Voilá!</h2>
+        <img src="img/crypt2.jpg" alt="muñeco con lupa">
+    </div>
+
+    <footer>
+        <p>&copy  Copyright - Diseño Gino Muratore - 2022.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
