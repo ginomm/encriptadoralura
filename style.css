@@ -180,6 +180,7 @@ footer{
     bottom: 0;
     position: absolute;
     width: 100%;
+    top: 950px;
 }
 
 footer p{
@@ -187,3 +188,4 @@ footer p{
     vertical-align: middle;
     padding: 40px;
 }
+
